@@ -31,7 +31,7 @@ export default function Home() {
 
   if (loading) {
     return (
-      <div className="flex min-h-screen w-screen items-center justify-center bg-[#0e1111] text-white">
+      <div className="flex min-h-screen items-center justify-center bg-[#0e1111] text-white">
         <p className="text-3xl">Loading...</p>
       </div>
     );
